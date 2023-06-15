@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Calculator</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="calculator calculator1">
+            <div class="screen">
+                <div class="row">
+                    <input class="inp pressed" type="text" placeholder="0"></div>
+            </div>
+            <div class="container container1">
+                <div class="row">
+                    <button class="btn">AC</button>
+                    <button class="btn">DEL</button>
+                    <button class="btn">%</button>
+                    <button class="btn bor-50 right">x</button>
+                </div>
+                <div class="row">
+                    <button class="btn">7</button>
+                    <button class="btn">8</button>
+                    <button class="btn">9</button>
+                    <button class="btn bor-50 right">/</button>
+                </div>
+                <div class="row">
+                    <button class="btn">4</button>
+                    <button class="btn">5</button>
+                    <button class="btn">6</button>
+                    <button class="btn bor-50 right">+</button>
+                </div>
+                <div class="row ">
+                    <button class="btn">1</button>
+                    <button class="btn">2</button>
+                    <button class="btn">3</button>
+                    <button class="btn bor-50 right">-</button>
+                </div>
+                <div class="row ">
+                    <i class=" fa fa-solid fa-moon  fa-2xl" style="margin-left:20px; padding-right:7px;" onclick="Theme()"></i>
+                    <button class="btn">0</button>
+                    <button class="btn">.</button>
+                    <button class="btn equal bor-50 ">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.js " integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin=" anonymous "></script>
+    <script src="app.js "></script>
+</body>
+
+</html>
